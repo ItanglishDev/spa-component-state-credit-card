@@ -43,7 +43,7 @@ function CardDetail(props) {
           fontSize: "1.2rem",
           position: "relative",
           textAlign: "center",
-          letterSpacing: "3px",
+          letterSpacing: "5px",
           top: "20px",
         }}
       >
@@ -85,6 +85,17 @@ function CardDetail(props) {
           {expirationDate}
         </p>
       </div>
+      <p
+        style={{
+          position: "relative",
+          bottom: "46px",
+          left: "20px",
+          fontSize: "1.2rem",
+          textTransform: "uppercase",
+        }}
+      >
+        {name}
+      </p>
     </div>
   );
 }

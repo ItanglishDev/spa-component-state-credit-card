@@ -58,6 +58,33 @@ function CardDetail(props) {
       >
         1234
       </p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          position: "relative",
+          bottom: "20px",
+        }}
+      >
+        <span
+          style={{
+            fontSize: ".3rem",
+            // display: "block",
+          }}
+        >
+          <p>VALID</p>THRU<p></p>
+        </span>
+        <p
+          style={{
+            // alignItems: "flex-start",
+            marginLeft: "20px",
+            bottom: "20px",
+          }}
+        >
+          {expirationDate}
+        </p>
+      </div>
     </div>
   );
 }

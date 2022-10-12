@@ -1,9 +1,10 @@
 import React from "react"
+import Card from './Card'
 
 function App() {
   return (
     <div className="App">
-     <h1>My React App</h1>
+      <Card />
     </div>
   );
 }
